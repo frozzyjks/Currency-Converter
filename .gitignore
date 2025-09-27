@@ -1,0 +1,7 @@
+pycache/
+*.pyc
+*.log
+*.idea/
+*.iml
+venv/
+.DS_Store
