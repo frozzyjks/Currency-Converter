@@ -1,2 +1,12 @@
-# Currency-Converter
-Простой конвертер валют на Python с использованием бесплатного API exchangerate.host. Позволяет конвертировать суммы между различными валютами, поддерживает тестирование и легко расширяется.
+# Currency Converter
+
+Простой конвертер валют на Python с использованием API https://exchangerate.host
+
+## Установка
+pip install requests
+
+## Пример использования
+from converter import CurrencyConverter
+
+converter = CurrencyConverter("USD")
+print(converter.convert(10, "EUR"))
